@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="orphan.css" />
+    <title>Orphan's donation Page</title>
+  </head>
+  <style>
+    .middle {
+      color: white;
+      font-size: 15px;
+    }
+  </style>
+  <body>
+    <div id="root"></div>
+
+    <script type="module" src="/src/main.jsx"></script>
+    <div class="middle">
+      <header></header>
+
+      <section class="donate-section">
+        <div class="donate-form">
+          <h2>OneWorld School Donations</h2>
+          <form>
+            <div class="form-group">
+              <div class="column">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" required />
+              </div>
+              <div class="column">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="column">
+                <label for="phoneNumber">Phone Number</label>
+                <input
+                  type="tel"
+                  id="phoneNumber"
+                  name="phoneNumber"
+                  required
+                />
+              </div>
+              <div class="column">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+            </div>
+
+            <label>Choose Donation Amount</label>
+            <div class="donation-amount">
+              <label><input type="radio" name="amount" value="10" /> $10</label>
+              <label><input type="radio" name="amount" value="50" /> $50</label>
+              <label
+                ><input type="radio" name="amount" value="100" /> $100</label
+              >
+              <label class="custom-amount"></label>
+              <input type="number" name="customAmount" placeholder="$ Other" />
+            </div>
+
+            <label class="checkbox-label">
+              <input type="checkbox" name="recurringPayment" /> Make this
+              monthly?
+            </label>
+
+            <label for="creditCard">Card Information</label>
+            <input
+              type="text"
+              id="creditCard"
+              name="creditCard"
+              required
+              placeholder="XXXX-XXXX-XXXX-XXXX"
+            />
+
+            <button type="submit">Donate</button>
+          </form>
+        </div>
+      </section>
+    </div>
+
+    <div id="footer"></div>
+  </body>
+</html>
