@@ -208,9 +208,8 @@ textarea {
   display: flex;
   align-items: center;
   height: 600px;
-  background-color: rgb(154, 154, 154);
-  color: rgb(0, 0, 0);
-}
+    color: rgb(0, 0, 0);
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(74, 63, 63), rgb(94 71 71), rgb(74, 63, 63), rgb(0, 0, 0));  }
 
 .carousel {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
@@ -222,15 +221,15 @@ textarea {
   margin-left: 30px;
   border-radius: 20px;
 }
-.img1,
-.img3 {
+.image1,
+.image3 {
   opacity: 0.85;
 }
 
-.img1,
-.img2,
-.img3,
-.img4 {
+.image1,
+.image2,
+.image3,
+.image4 {
   width: 500px;
   object-fit: cover;
   border-radius: 20px;
