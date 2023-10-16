@@ -5,7 +5,7 @@
    <img src="/src/assets/unknown_2023.10.15-23.10.gif" alt="animated">
 </p>
 
-Welcome to OneWorld Charity! This repository contains the code for the OneWorld charity website, a platform committed to making a lasting impact on the lives of those in need. Together, we strive to create a better world for everyone.
+<h4 align="center">Welcome to OneWorld Charity! This repository contains the code for the OneWorld charity website, a platform committed to making a lasting impact on the lives of those in need. Together, we strive to create a better world for everyone.</h4>
 
 <h2 align="center">Technologies Used</h2>
 
