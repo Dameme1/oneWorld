@@ -1,17 +1,21 @@
-# OneWorld Charity Website
+<h1 align="center">OneWorld Charity Website</h1>
 
-<!-- ![OneWorld Charity Website](path_to_your_gif.gif) -->
+<p align="center">
+<!--    ![OneWorld Charity Website](/src/assets/unknown_2023.10.15-23.10.gif) -->
+   <img src="/src/assets/unknown_2023.10.15-23.10.gif" alt="animated">
+</p>
 
 Welcome to OneWorld Charity! This repository contains the code for the OneWorld charity website, a platform committed to making a lasting impact on the lives of those in need. Together, we strive to create a better world for everyone.
 
-## Technologies Used
+<h2 align="center">Technologies Used</h2>
+
 - <b>Vite:</b> was used for the 'create-react-app'
 - <b>React:</b> A JavaScript library for building user interfaces.
 - <b>Javascript:</b> A typed superset of JavaScript that compiles to plain JavaScript.
 - <b>CSS:</b> Cascading Style Sheets for styling the application.
 - <b>HTML5:</b> Hypertext Markup Language
 
-## Getting Started
+<h2 align="center">Getting Started</h2>
 
 Follow these steps to run the project locally:
 
