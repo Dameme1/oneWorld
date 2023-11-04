@@ -2,7 +2,7 @@
 
 <p align="center">
 <!--    ![OneWorld Charity Website](/src/assets/oneWorld Demo.gif) -->
-   <img src="/src/assets/oneWorld_Demo.gif" alt="animated">
+   <img src="/src/assets/unknown_2023.10.15-23.10.gif" alt="animated">
 </p>
 
 <h4 align="center">Welcome to OneWorld Charity! This repository contains the code for the OneWorld charity website, a platform committed to making a lasting impact on the lives of those in need. Together, we strive to create a better world for everyone.</h4>
